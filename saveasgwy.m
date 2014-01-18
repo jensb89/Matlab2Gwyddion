@@ -1,4 +1,4 @@
-function [ n ] = saveasgwy(filename,data,numstepsx,numstepsy,startx,endx,starty,endy,label,unit,time,varargin)
+function  n = saveasgwy(filename,data,numstepsx,numstepsy,startx,endx,starty,endy,label,unit,time,varargin)
 %saveasgwy Save NxM or NxMxL matrix as Gwyddion native data file.  
 %   Save data (NxMxL matrix) for Gwyddion (SPM (scanning probe microscopy)
 %   data visualization and analysis)
