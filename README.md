@@ -24,4 +24,5 @@ Example:
 	saveasgwy('test.gwy',rand(30,200,2),200,30,1,2,3,4,{'test1','test2'},{'V','m'},now);
 ```
 
-This code is also available via Mathworks FileExchange: [http://www.mathworks.com/matlabcentral/fileexchange/45092](http://www.mathworks.com/matlabcentral/fileexchange/45092) (pending approval)
+This code is also available via Mathworks FileExchange: [http://www.mathworks.com/matlabcentral/fileexchange/45092](http://www.mathworks.com/matlabcentral/fileexchange/45092) 
+![Screenshot](screenshot.png)
