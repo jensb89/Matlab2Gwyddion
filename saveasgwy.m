@@ -61,6 +61,10 @@ sizeGwyContainer = numchannels*sizeGwyDataFieldContainer0 +... %DataContainerSiz
                   numchannels*131 + length(cell2mat(label));  %rest bytes from all around the data container
                   %97=sum(n([4,5,6,21:25]))-length(labels{end});
 
+if numchannels > 10
+    sizeGwyContainer = sizeGwyContainer + 3*(numchannels-10); %GwyDataField + title + GwyContainer give one byte more when numchannels >10!
+end
+
 % START FILE
 n(1)=fprintf(file,'GWYP');
 n(2)=fprintf(file,'GwyContainer%s',0); %TOP CONTAINER, '%s',0 == NUL 
